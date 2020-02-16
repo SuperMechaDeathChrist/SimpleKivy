@@ -27,7 +27,7 @@ import SimpleKivy as sk
 
 # All the stuff inside your window.
 layout = [[sk.Text('Some text on Row 1')],
-          [sk.Text('Enter something on Row 2'), sk.InputText(key='input')],
+          [sk.Text('Enter something on Row 2:'), sk.InputText(key='input')],
           [sk.Button('Ok'), sk.Button('Cancel')]]
 
 # Your main program must be inside a function with 3 arguments (app,event,values) and 
