@@ -56,7 +56,7 @@ window.Run()
 
 and returns the value input as well as the button clicked.
 
-
+![hello_world_window](https://github.com/SuperMechaDeathChrist/SimpleKivy/raw/master/hello_world_window.PNG)
 
 
 
