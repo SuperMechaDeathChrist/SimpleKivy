@@ -3,14 +3,14 @@ A new way to make Kivy apps using a PySimpleGUI approach
 
 # Installation
 You need to install the latest version of `Kivy`. Installation instructions can be found [here](https://kivy.org/doc/stable/gettingstarted/installation.html).
-## Garden widgets
+### Garden widgets
 The kivy widget library is always being expanded by the `kivy-garden` widgets. This python library also aims to include the most common ones for more complete and faster development of complex apps.
 
 You need to install these `kivy-garden` widgets:
 
 * ```context_menu: pip install kivy_garden.contextmenu```
 
-## SimpleKivy.py
+### SimpleKivy.py
 At the moment, you only need the `SimpleKivy.py` file to use this library. You can either keep it in the same directory as your main code or place it in your `.../Lib` directory . You can download it from this branch.
 Other means of installation are not supported at the moment. 
 
