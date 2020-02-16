@@ -6,7 +6,7 @@ You need to install the latest version of `Kivy`. Installation instructions can 
 ## Garden widgets
 The kivy widget library is always being expanded by the `kivy-garden` widgets. This python library also aims to include the most common ones for more complete and faster development of complex apps.
 
-You need to install the following elements `kivy-garden` widgets:
+You need to install these `kivy-garden` widgets:
 
 * ```context_menu: pip install kivy_garden.contextmenu```
 
