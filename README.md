@@ -2,7 +2,7 @@
 A new way to make Kivy apps using a **PySimpleGUI** approach and with all the power of **Kivy**
 
 # Installation
-##### SimpleKivy has only been tested on **Windows 10** and only supports Python 3
+##### SimpleKivy has only been tested on **Windows 10** and Python 3
 ### Kivy
 You need to install the latest version of `Kivy`. Installation instructions can be found [here](https://kivy.org/doc/stable/gettingstarted/installation.html).
 
