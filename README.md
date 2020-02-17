@@ -61,7 +61,7 @@ window.Run()
 
 and returns the value input as well as the button clicked.
 
-# Suported Elements
+# Supported Elements
 This is a list of the supported elements that you can use in your window layouts right now:
 
 ***Type**: Class_name, Alias*
