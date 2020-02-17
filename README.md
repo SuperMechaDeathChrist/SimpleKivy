@@ -64,7 +64,7 @@ and returns the value input as well as the button clicked.
 # Supported Elements
 This is a list of the suported elements that you can use in your window layouts right now:
 
-***Type**: Class name*
+***Type**: Class_name, Alias*
 * **Text**: T, Text
 * **Text markups**: T_markup
 * **Buttons**: B, Button
