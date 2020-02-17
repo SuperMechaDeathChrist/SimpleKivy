@@ -1,4 +1,3 @@
-
 # import kivy
 # print(kivy.kivy_options["video"])
 from kivy.app import App
@@ -295,7 +294,7 @@ AnchorLayout:
                                 menu_kv[0]+=tab*1+level*tab+extra+'ContextMenuTextItem: #<--\n'
                                 menu_kv[0]+=tab*2+tab*level+extra+'text: \"'+item+'\"\n'
                             if data[item] is None:
-                                menu_kv[0]+=tab*2+tab*level+extra+r"on_release: app._general_event('"+str(el.key)+ r">'+self.text)"+'\n'
+                                menu_kv[0]+=tab*2+tab*level+extra+r"on_release: app._general_event('"+str(el.key)+ r":'+self.text)"+'\n'
                                 menu_kv[0]+=tab*2+tab*level+extra+r"on_release: app_menu.close_all()"+'\n'
                             elif 'disabled' in data[item]:
                                 menu_kv[0]+=tab*2+tab*level+extra+r"color: 1,1,1,0.5"+'\n'
@@ -771,6 +770,7 @@ class Window(App):
                  start_maximized=False,
                  start_minimized=False,
                  show_cursor=True,
+                 icon=None,
                  **kwargs):
         super(Window, self).__init__(**kwargs)
 
@@ -780,6 +780,7 @@ class Window(App):
         self.allow_repeated_keys=allow_repeated_keys
         self.padding=padding
         self.Run=self.run
+        self.icon=icon
         
         # Config.set('graphics', 'borderless', no_titlebar)
         # Config.set('graphics', 'fullscreen', 'fake')
@@ -869,7 +870,7 @@ class CheckBox:
         self.active=active
         self.group_id=group_id
 
-class TabPannel:
+class TabPanel:
 
     def __init__(self,tab_items=[],tab_headers=[],tabs_position='top_left',tab_size=(None,None),
         key=None,
@@ -1011,11 +1012,10 @@ class Image:
         self.source=source
         self.async_load=async_load
 
-# import PySimpleGUI as sg
-# sg.MenuBar
-
 # Element Alternate names
 Column=Sublayout
 Text=T
 Button=B
 InputText=In
+DropDow=DD=Spinner
+ProgressBar=PB
