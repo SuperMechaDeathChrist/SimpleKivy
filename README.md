@@ -19,7 +19,7 @@ Other means of installation are not supported at the moment.
 
 **This project is in the early stages of development and is expected to change in the future.**
 
-**Use it at you own risk.**
+**Use it at your own risk.**
 
 # Usage
 
