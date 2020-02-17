@@ -61,8 +61,8 @@ window.Run()
 
 and returns the value input as well as the button clicked.
 
-# Supported Elements
-This is a list of the suported elements that you can use in your window layouts right now:
+# Suported Elements
+This is a list of the supported elements that you can use in your window layouts right now:
 
 ***Type**: Class_name, Alias*
 * **Text**: T, Text
@@ -99,4 +99,4 @@ The best way to encourage future development and maintenance of this project is 
 
 ![paypal_QR](https://github.com/SuperMechaDeathChrist/SimpleKivy/raw/master/images/paypal_QR.png)
 
-Either way, **SimpleKivy** is free to use!
+Either way, **SimpleKivy is free to use!**
