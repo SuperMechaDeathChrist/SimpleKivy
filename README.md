@@ -97,5 +97,6 @@ The best way to encourage future development and maintenance of this project is 
 
 [![paypal](https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=339JUWC5BY6UN&source=url)
 
+![paypal_QR](https://github.com/SuperMechaDeathChrist/SimpleKivy/raw/master/images/paypal_QR.png)
 
 Either way, **SimpleKivy** is free to use!
