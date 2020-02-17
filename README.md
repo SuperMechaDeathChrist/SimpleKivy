@@ -17,9 +17,9 @@ You need to install these `kivy-garden` widgets:
 At the moment, you only need the `SimpleKivy.py` file to use this library. You can either keep it in the same directory as your main code or place it in your `.../Lib` directory . You can download it from this branch.
 Other means of installation are not supported at the moment. 
 
-**This project is in the early stages of development and is expected to change in the future.**
+* **This project is in the early stages of development and is expected to change in the future.**
 
-**Use it at your own risk.**
+* **Use it at your own risk.**
 
 # Usage
 
