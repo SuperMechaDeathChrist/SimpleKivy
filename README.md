@@ -75,15 +75,15 @@ This is a list of the supported elements that you can use in your window layouts
 * **Progress bar**: PB, ProgressBar
 * **Image**: Image
 * **Box**: Box
-* **Multiple screens (with transition animations)**: Screen_Manager
 * **MenuBar**: MenuBar
 * **Slider**: Slider
-* **Tabbed Panel**: TabPanel
 * **CheckBox**: CheckBox
 * **Switch on/off**: Switch
-* **Sublayouts**: Sublayout, Column
 * **Video**: Video_element
 * **Video player**: VDP
+* **Tabbed Panel**: TabPanel
+* **Multiple screens (with transition animations)**: Screen_Manager
+* **Sublayouts (used as standalone widgets or tab and screen items)**: Sublayout, Column
 
 Don't use these inside layouts:
 * **Window**: Window
