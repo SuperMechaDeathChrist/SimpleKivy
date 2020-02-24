@@ -85,7 +85,7 @@ This is a list of the supported elements that you can use in your window layouts
 * **Text**: T = Text
 * **Text markdown renderer**: TMarkup = TextMarkup
 * **Buttons**: B = Button
-* **ToggleButtons (used in a group with the same graoup_id)**: TB = ToggleButton
+* **ToggleButtons (only one button remains pressed for the same group_id)**: TB = ToggleButton
 * **Voids**: Void
 * **Text inputs**: In = InputText
 * **Multiline text input**: Multiline
@@ -96,7 +96,7 @@ This is a list of the supported elements that you can use in your window layouts
 * **Box**: Box
 * **MenuBar**: MenuBar
 * **Slider**: Slider
-* **CheckBox (becomes radiobutton when setting a group_id)**: Check = CheckBox
+* **CheckBox (becomes radio-button when setting a group_id)**: Check = CheckBox
 * **Switch on/off**: Switch
 * **Video**: Video = VD
 * **Video player**: VideoPlayer = VDP
