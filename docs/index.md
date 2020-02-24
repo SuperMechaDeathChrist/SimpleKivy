@@ -1,4 +1,4 @@
 ---
 layout: post
-title: Blogging Like a Hacker
+title: Overview — SimpleKivy
 ---
