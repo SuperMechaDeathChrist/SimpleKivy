@@ -13,8 +13,8 @@ And this is a reference to top_::
 
     $ print("Hello world")
 ''',
-            key='input',enable_events=True),sk.T_markup(key='tmark')],
-          # [sk.Button('Ok',size=(None,60)), sk.Button('Cancel',size=(None,60))],
+            key='input',enable_events=True),
+           sk.TMarkup(key='tmark')],
           ]
 
 # Your main program must be inside a function with 3 arguments (app,event,values) and 
