@@ -61,29 +61,51 @@ window.Run()
 
 and returns the value input as well as the button clicked.
 
+# New Features
+- **Renamed some element classes for consistency.**
+- **New widgets: Watch, ScrollableSublayout, ToggleButton, ComboBox.**
+- **More customization options for all widgets.**
+- **Keep-on-top and alpha (transparency) options for the window (only Windows platforms).**
+- **Expanded Text customization (background color).**
+- **Expanded InputText customization (vertical aligment).**
+- **All color options can be entered as keywords (see SimpleKivy.Colors): ```Text('Hello World', background_color='blue')```.**
+- **Default fonts can be entered as keywords (see SimpleKivy.Fonts): ```Text('Hello World', font_name='roboto it')```.**
+- **Default options (Fonts, Colors, ...) are case-insensitive: 'red'=='Red'**
+- **kvElement: New in-between class that integrates pure kivy widgets into the SimpleKivy architecture. No more waiting for developer implementation to use all the kivy features!!!** *(Go to documentation to know how to use it)*
+
+# In Development
+- **Popup implementation.**
+- **File-chooser implementation.**
+- **Examples and documentation.**
+
 # Supported Elements
 This is a list of the supported elements that you can use in your window layouts right now:
 
-***Type**: Class_name, Alias*
-* **Text**: T, Text
-* **Text markups**: T_markup
-* **Buttons**: B, Button
+***Type**: Class_name = Alias*
+* **Text**: T = Text
+* **Text markdown renderer**: TMarkup = TextMarkup
+* **Buttons**: B = Button
+* **ToggleButtons (used in a group with the same graoup_id)**: TB = ToggleButton
 * **Voids**: Void
-* **Text inputs**: In, InputText
+* **Text inputs**: In = InputText
 * **Multiline text input**: Multiline
-* **Dropdown list**: DD, Spinner, DropDown
-* **Progress bar**: PB, ProgressBar
+* **Combo box (input text and dropdown values)**: DropDown = DD = CB = ComboBox
+* **Spinner**: Spin = Spinner
+* **Progress bar**: PB = ProgressBar
 * **Image**: Image
 * **Box**: Box
 * **MenuBar**: MenuBar
 * **Slider**: Slider
-* **CheckBox**: CheckBox
+* **CheckBox (becomes radiobutton when setting a group_id)**: Check = CheckBox
 * **Switch on/off**: Switch
-* **Video**: Video_element
-* **Video player**: VDP
-* **Tabbed Panel**: TabPanel
-* **Multiple screens (with transition animations)**: Screen_Manager
-* **Sublayouts (used as standalone widgets or tab and screen items)**: Sublayout, Column
+* **Video**: Video = VD
+* **Video player**: VideoPlayer = VDP
+* **Tabbed Panel**: TabGroup = TabPanel
+* **Multiple screens (with transition animations)**: ScreenManager
+* **Sublayouts (used as standalone widgets or tab and screen items)**: Column = Subl = Sublayout
+* **Scrollable sublayouts (same as sublayouts but with scrollable optinos )**: SSubl = SSublayout = ScrollSublayout
+* **Watch. Binds current time to a widget (see SimpleKivy.TimeFormats)**: Watch
+* **kvElement (in-between class that integrates pure kivy widgets into the SimpleKivy architecture)**: kvElement
 
 Don't use these inside layouts:
 * **Window**: Window
