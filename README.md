@@ -63,7 +63,7 @@ and returns the value input as well as the button clicked.
 
 # Last Changes
 - Renamed some element classes for consistency.
-- New widgets: Watch, ScrollableSublayout, ToggleButton, ComboBox.
+- New widgets: Watch, ScrollSublayout, ToggleButton, ComboBox.
 - More customization options for all widgets.
 - Keep-on-top and alpha (transparency) options for the window (only Windows platforms).
 - Expanded Text customization (background color).
