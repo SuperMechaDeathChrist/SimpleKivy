@@ -1811,7 +1811,6 @@ class Watch:
         self.value_bind = value_bind
 
 # Element Alternate names
-Column = Sublayout
 T = Text
 B = Button
 TB = ToggleButton
@@ -1820,9 +1819,9 @@ Spin = Spinner
 PB = ProgressBar
 DropDown = DD = Combo = ComboBox
 CB = Check = CheckBox
-Subl = Sublayout
 VDP = VideoPlayer
 VD = Video
-SSubl = SSublayout = ScrollSublayout
+Col = Column = Subl = Sublayout
+SCol = SColumn = SSubl = SSublayout = ScrollSublayout
 TabGroup = TabPanel
 TMarkup = TextMarkup
