@@ -71,7 +71,7 @@ and returns the value input as well as the button clicked.
 - All color options can be entered as keywords (see SimpleKivy.Colors): ```Text('Hello World', background_color='blue')```.
 - Default fonts can be entered as keywords (see SimpleKivy.Fonts): ```Text('Hello World', font_name='roboto it')```.
 - Default options (Fonts, Colors, ...) are case-insensitive: 'red'=='Red'
-- **kvElement: New in-between class that integrates pure kivy widgets into the SimpleKivy architecture. No more waiting for developer implementation to use all the kivy features!!!** ***(Check [this example](example_programs/example_kvelement.py)***
+- **kvElement: New in-between class that integrates pure kivy widgets into the SimpleKivy architecture. No more waiting for developer implementation to use all the kivy features!!!** ***(Check [this example](example_programs/example_kvelement.py) to know how to use it***
 
 # Next In The List
 - **Popup implementation.**
