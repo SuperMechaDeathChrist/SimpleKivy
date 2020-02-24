@@ -41,7 +41,7 @@ def main(app, event, values):
 
 
 # Create the Window
-window = sk.Window(title='App With Menu',layout=layout, event_manager=main,size=(600,150))
+window = sk.Window(title='App With Menu',layout=layout, event_manager=main,size=(600,400))
 
 # Start the Window
 window.Run()
