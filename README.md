@@ -62,16 +62,16 @@ window.Run()
 and returns the value input as well as the button clicked.
 
 # New Features
-- **Renamed some element classes for consistency.**
-- **New widgets: Watch, ScrollableSublayout, ToggleButton, ComboBox.**
-- **More customization options for all widgets.**
-- **Keep-on-top and alpha (transparency) options for the window (only Windows platforms).**
-- **Expanded Text customization (background color).**
-- **Expanded InputText customization (vertical aligment).**
-- **All color options can be entered as keywords (see SimpleKivy.Colors): ```Text('Hello World', background_color='blue')```.**
-- **Default fonts can be entered as keywords (see SimpleKivy.Fonts): ```Text('Hello World', font_name='roboto it')```.**
-- **Default options (Fonts, Colors, ...) are case-insensitive: 'red'=='Red'**
-- **kvElement: New in-between class that integrates pure kivy widgets into the SimpleKivy architecture. No more waiting for developer implementation to use all the kivy features!!!** *(Go to documentation to know how to use it)*
+- Renamed some element classes for consistency.
+- New widgets: Watch, ScrollableSublayout, ToggleButton, ComboBox.
+- More customization options for all widgets.
+- Keep-on-top and alpha (transparency) options for the window (only Windows platforms).
+- Expanded Text customization (background color).
+- Expanded InputText customization (vertical aligment).
+- All color options can be entered as keywords (see SimpleKivy.Colors): ```Text('Hello World', background_color='blue')```.
+- Default fonts can be entered as keywords (see SimpleKivy.Fonts): ```Text('Hello World', font_name='roboto it')```.
+- Default options (Fonts, Colors, ...) are case-insensitive: 'red'=='Red'
+- **kvElement: New in-between class that integrates pure kivy widgets into the SimpleKivy architecture. No more waiting for developer implementation to use all the kivy features!!!** ***(Check [this example](example_programs/example_kvelement.py)***
 
 # Next In The List
 - **Popup implementation.**
