@@ -11,7 +11,7 @@ filec = FileChooserIconView(path=os.getcwd(),multiselect=True)
 # All the stuff inside your window.
 layout=[
 [sk.kvElement(
-	filec, # the pure kivy or garden widget class.
+	filec, # the pure kivy element or garden widget.
 	value_bind=[filec,'selection'], # which property assign to the values dictionary.
 	event_bind=[filec,'path'], # which callback or property change produces an event.
 	key='filechooser'
