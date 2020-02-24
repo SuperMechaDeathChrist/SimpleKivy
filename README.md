@@ -123,4 +123,5 @@ The best way to encourage future development and maintenance of this project is 
 ![paypal_QR](https://github.com/SuperMechaDeathChrist/SimpleKivy/raw/master/images/paypal_QR.png)
 
 Either way, **SimpleKivy is free to use!**
+
 **Dont forget to leave a ★**
