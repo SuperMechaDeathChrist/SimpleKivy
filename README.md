@@ -61,7 +61,7 @@ window.Run()
 
 and returns the value input as well as the button clicked.
 
-# Last Changes
+# Latest Changes
 - Renamed some element classes for consistency.
 - New widgets: Watch, ScrollSublayout, ToggleButton, ComboBox.
 - More customization options for all widgets.
