@@ -380,8 +380,8 @@ class Layout(_GridLayout):
             self.elements[grid_coords] = RstDocument(
                 text=el.text, size_hint=el.size_hint)
         elif el.eltype == 'kvel':
-            el.kv_element.size_hint = el.size_hint
             self.elements[grid_coords] = el.kv_element
+            el.kv_element.size_hint = el.size_hint
             if not type(el.event_bind[0]) is type:
                 el.event_bind[0].bind(
                     **{el.event_bind[1]: lambda *largs: self.trigger_event(self.elements[grid_coords])}
@@ -1350,11 +1350,11 @@ class ScrollSublayout:
         self.scroll_x = scroll_x
         self.scroll_y = scroll_y
 
-
+# DefaultWindowSize=(800,600)
 class Window(_App):
 
     def __init__(self, title='App Title', layout=None, event_manager=None,
-                 size=(None, None),
+                 size=(800,600),
                  resizable=True,
                  no_titlebar=False,
                  fullscreen=False,
@@ -1409,8 +1409,15 @@ class Window(_App):
             Config.set('graphics', 'window_state', 'minimized')
         if not show_cursor:
             Config.set('graphics', 'show_cursor', 0)
+        
         from kivy.core.window import Window as kvWindow
         kvWindow.borderless = no_titlebar
+
+        if size[0]:
+            kvWindow.size=size[0],kvWindow.size[1]
+        if size[1]:
+            kvWindow.size=kvWindow.size[0],size[1]
+        
         if type(background_color) is str:
             kvWindow.clearcolor = Colors[background_color]
         else:
