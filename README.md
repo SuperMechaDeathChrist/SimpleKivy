@@ -90,14 +90,14 @@ This is a list of the supported elements that you can use in your window layouts
 * **Voids**: Void
 * **Text inputs**: In = InputText
 * **Multiline text input**: Multiline
-* **Combo box (input text and dropdown values)**: DropDown = DD = CB = ComboBox
+* **Combo box (input text and dropdown values)**: DropDown = DD = Combo = ComboBox
 * **Spinner**: Spin = Spinner
 * **Progress bar**: PB = ProgressBar
 * **Image**: Image
 * **Box**: Box
 * **MenuBar**: MenuBar
 * **Slider**: Slider
-* **CheckBox (becomes radio-button when setting a group_id)**: Check = CheckBox
+* **CheckBox (becomes radio-button when setting a group_id)**: CB = Check = CheckBox
 * **Switch on/off**: Switch
 * **Video**: Video = VD
 * **Video player**: VideoPlayer = VDP
