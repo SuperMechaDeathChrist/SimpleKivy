@@ -24,6 +24,7 @@ Other means of installation are not supported at the moment.
 # Usage
 
 ### This Code
+[link](example_programs/hello_world.py)
 
 ```python
 import SimpleKivy as sk
@@ -71,7 +72,7 @@ and returns the value input as well as the button clicked.
 - All color options can be entered as keywords (see SimpleKivy.Colors): ```Text('Hello World', background_color='blue')```.
 - Default fonts can be entered as keywords (see SimpleKivy.Fonts): ```Text('Hello World', font_name='roboto it')```.
 - Default options (Fonts, Colors, ...) are case-insensitive: 'red'=='Red'
-- **kvElement: New in-between class that integrates pure kivy widgets into the SimpleKivy architecture. No more waiting for developer implementation to use all the kivy features!!!** ***(Check [this example](example_programs/example_kvelement.py) to know how to use it)***
+- **kvElement: New in-between class that integrates pure kivy widgets into the SimpleKivy architecture. No more waiting for developer implementation to use all the kivy features!!!** ***(Check [this example](example_programs/example_kvelement.py) to learn how to use it)***
 
 # Next In The List
 - **Popup implementation.**
@@ -85,10 +86,11 @@ This is a list of the supported elements that you can use in your window layouts
 ***Type**: Class_name = Alias*
 * **Text**: T = Text
 * **Text markdown renderer**: TMarkup = TextMarkup
+  * [Example Markup](example_programs/example_markup_text.py)
 * **Buttons**: B = Button
+* **Text inputs**: In = InputText
 * **ToggleButtons (only one button remains pressed for the same group_id)**: TB = ToggleButton
 * **Voids**: Void
-* **Text inputs**: In = InputText
 * **Multiline text input**: Multiline
 * **Combo box (input text and dropdown values)**: DropDown = DD = Combo = ComboBox
 * **Spinner**: Spin = Spinner
@@ -96,17 +98,21 @@ This is a list of the supported elements that you can use in your window layouts
 * **Image**: Image
 * **Box**: Box
 * **MenuBar**: MenuBar
+  * [Application Menu](example_programs/application_menu_bar.py)
 * **Slider**: Slider
 * **CheckBox (becomes radio-button when setting a group_id)**: CB = Check = CheckBox
 * **Switch on/off**: Switch
 * **Video**: Video = VD
 * **Video player**: VideoPlayer = VDP
 * **Tabbed Panel**: TabGroup = TabPanel
+  * [Example Tabbed panel](example_programs/example_tabbed_panel.py)
 * **Multiple screens (with transition animations)**: ScreenManager
 * **Sublayouts (used as standalone widgets or tab and screen items)**: Col = Column = Subl = Sublayout
 * **Scrollable sublayouts (same as sublayouts but with scrollable optinos )**: SCol = SColumn = SSubl = SSublayout = ScrollSublayout
 * **Watch. Binds current time to a widget (see SimpleKivy.TimeFormats)**: Watch
+  * [Digital Clock](example_programs/digital_clock.py)
 * **kvElement (in-between class that integrates pure kivy widgets into the SimpleKivy architecture)**: kvElement
+  * [Using the pure kivy FileChooserIconView](example_programs/example_kvelement.py)
 
 Don't use these inside layouts:
 * **Window**: Window
