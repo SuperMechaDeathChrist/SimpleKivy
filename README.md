@@ -103,8 +103,8 @@ This is a list of the supported elements that you can use in your window layouts
 * **Video player**: VideoPlayer = VDP
 * **Tabbed Panel**: TabGroup = TabPanel
 * **Multiple screens (with transition animations)**: ScreenManager
-* **Sublayouts (used as standalone widgets or tab and screen items)**: Column = Subl = Sublayout
-* **Scrollable sublayouts (same as sublayouts but with scrollable optinos )**: SSubl = SSublayout = ScrollSublayout
+* **Sublayouts (used as standalone widgets or tab and screen items)**: Col = Column = Subl = Sublayout
+* **Scrollable sublayouts (same as sublayouts but with scrollable optinos )**: SCol = SColumn = SSubl = SSublayout = ScrollSublayout
 * **Watch. Binds current time to a widget (see SimpleKivy.TimeFormats)**: Watch
 * **kvElement (in-between class that integrates pure kivy widgets into the SimpleKivy architecture)**: kvElement
 
