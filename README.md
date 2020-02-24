@@ -73,8 +73,9 @@ and returns the value input as well as the button clicked.
 - **Default options (Fonts, Colors, ...) are case-insensitive: 'red'=='Red'**
 - **kvElement: New in-between class that integrates pure kivy widgets into the SimpleKivy architecture. No more waiting for developer implementation to use all the kivy features!!!** *(Go to documentation to know how to use it)*
 
-# In Development
+# Next In The List
 - **Popup implementation.**
+- **TreeView implementation.**
 - **File-chooser implementation.**
 - **Examples and documentation.**
 
