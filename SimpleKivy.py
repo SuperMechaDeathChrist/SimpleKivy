@@ -1811,8 +1811,8 @@ TB = ToggleButton
 InputText = In
 Spin = Spinner
 PB = ProgressBar
-DropDown = DD = CB = ComboBox
-Check = CheckBox
+DropDown = DD = Combo = ComboBox
+CB = Check = CheckBox
 Subl = Sublayout
 VDP = VideoPlayer
 VD = Video
