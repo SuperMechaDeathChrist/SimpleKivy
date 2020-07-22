@@ -75,10 +75,20 @@ and returns the value input as well as the button clicked.
 - **kvElement: New in-between class that integrates pure kivy widgets into the SimpleKivy architecture. No more waiting for developer implementation to use all the kivy features!!!** ***(Check [this example](example_programs/example_kvelement.py) to learn how to use it)***
 
 # Next In The List
-- **Popup implementation.**
 - **TreeView implementation.**
-- **File-chooser implementation.**
 - **Examples and documentation.**
+
+# Experimental Phase (coming soon)
+- **File-chooser/file-save implementation.**
+- **Popup implementation.**
+- **Modal implementation.**
+- **WebView widget based on cefpython3 (extremely experimmental but it finally works!).**
+- **Matplotlib integration with more styling options.**
+- **IconFonts.**
+- **Multithreadding and queue management integrated.**
+- **Tooltip text property for several widgets.**
+- **CVS file view.**
+- **Alternative styles and theme management.**
 
 # Supported Elements
 This is a list of the supported elements that you can use in your window layouts right now:
