@@ -120,8 +120,9 @@ Don't use these inside layouts:
 
 **Customization (colors/style) of these elements is a work in progress**
 
-# Donate
+# Suport Us
 The best way to encourage future development and maintenance of this project is by donating.
+SimpleKivy will always remain completely free, and no features will ever be locked behind a paywall. There are no special benefits to donating. This page exists for people who wish to support our effort.
 
 
 [![paypal](https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=339JUWC5BY6UN&source=url)
