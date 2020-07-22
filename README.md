@@ -141,4 +141,4 @@ SimpleKivy will always remain completely free, and no features will ever be lock
 
 Either way, **SimpleKivy is free to use!**
 
-**Dont forget to leave a ★**
+**Don't forget to leave a ★**
