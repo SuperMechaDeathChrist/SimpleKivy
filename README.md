@@ -1,8 +1,23 @@
 # SimpleKivy
 A new way to make Kivy apps using a **PySimpleGUI** approach and with all the power of **Kivy**
 
+# *This project will come back soon with major improvements...*
+## Experimental Phase (coming soon)
+- **File-chooser/file-save implementation.**
+- **Popup implementation.**
+- **Modal implementation.**
+- **WebView widget based on cefpython3 (extremely experimmental but it finally works!).**
+- **Matplotlib integration with more styling options.**
+- **IconFonts.**
+- **Menus.**
+- **Integrated multithreadding and queue management.**
+- **Tooltip text property for several widgets.**
+- **CVS file view.**
+- **Alternative styles and theme management.**
+
+
 # Installation
-##### SimpleKivy has only been tested on **Windows 10** and Python 3
+##### SimpleKivy has only been tested on **Windows 10** and Python 3.6
 ### Kivy
 You need to install the latest version of `Kivy`. Installation instructions can be found [here](https://kivy.org/doc/stable/gettingstarted/installation.html).
 
@@ -77,18 +92,6 @@ and returns the value input as well as the button clicked.
 # Next In The List
 - **TreeView implementation.**
 - **Examples and documentation.**
-
-# Experimental Phase (coming soon)
-- **File-chooser/file-save implementation.**
-- **Popup implementation.**
-- **Modal implementation.**
-- **WebView widget based on cefpython3 (extremely experimmental but it finally works!).**
-- **Matplotlib integration with more styling options.**
-- **IconFonts.**
-- **Multithreadding and queue management integrated.**
-- **Tooltip text property for several widgets.**
-- **CVS file view.**
-- **Alternative styles and theme management.**
 
 # Supported Elements
 This is a list of the supported elements that you can use in your window layouts right now:
