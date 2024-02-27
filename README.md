@@ -140,7 +140,7 @@ SimpleKivy will always remain completely free, and no features will ever be lock
 
 [![paypal](https://www.payalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=339JUWC5BY6UN&source=url)
 
-![paypal_QR](https://github.com/SuperMechaDeathChrist/SimpleKivy/raw/master/images/paypal_QR.png)
+![paypal_QR](https://github.com/SuperMechaDeathChrist/SimpleKivy/raw/master/images/image_2024-02-27_094804298.png)
 
 [Make a donation (PayPal)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=339JUWC5BY6UN&source=url)
 
